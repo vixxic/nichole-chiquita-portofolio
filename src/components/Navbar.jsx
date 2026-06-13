@@ -31,7 +31,7 @@ function Navbar() {
               alignItems: "center",
             }}
           >
-            <AiOutlineMoon size={40} color="#674022" />
+            <AiOutlineMoon className="theme-icon" color="#000000" />
           </span>
         </div>
 
