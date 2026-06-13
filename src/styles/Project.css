@@ -9,7 +9,7 @@
 }
 
 .project-tlt-des-con h1 {
-  font-size: clamp(50px, 5vw, 90px);
+  font-size: clamp(50px, 4vw, 90px);
   line-height: 1.1;
 }
 
@@ -28,7 +28,7 @@
   width: 100%;
   padding: 20px 10px 60px;
   position: relative;
-  height: 25vw;
+  height: 35vw;
 }
 
 .swiper-slide {

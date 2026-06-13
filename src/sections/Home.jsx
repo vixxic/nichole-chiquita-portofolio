@@ -21,7 +21,7 @@ function Home() {
         </div>
 
         <div className="hero-img-con">
-          <img></img>
+          <img src="/home-profile.jpg"></img>
         </div>
       </div>
     </>

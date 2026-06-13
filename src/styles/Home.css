@@ -4,6 +4,7 @@
   gap: 5rem;
   padding-top: 8rem;
   justify-content: space-between;
+  max-height: 80vh;
 }
 
 .hero-tlt-des-con {
@@ -38,7 +39,6 @@
   aspect-ratio: 1;
   max-width: 500px;
   border-radius: 50%;
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;

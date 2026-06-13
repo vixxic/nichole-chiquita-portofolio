@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Home from "./sections/Home";
 import AboutMe from "./sections/AboutMe";
 import Project from "./sections/Project";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -38,6 +40,7 @@ function App() {
         <Home />
         <AboutMe />
         <Project />
+        <Contact />
       </div>
     </>
   );

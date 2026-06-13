@@ -1,0 +1,172 @@
+.contact-section {
+  width: 100vw;
+  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0 -15vw;
+  position: relative;
+}
+
+.contact-title {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.contact-subtitle {
+  max-width: 600px;
+  color: #777;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 900px;
+
+  background: white;
+
+  border-radius: 32px;
+
+  padding: 60px;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.08),
+    0 5px 15px rgba(0, 0, 0, 0.04);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: -100px;
+  right: -100px;
+
+  width: 250px;
+  height: 250px;
+
+  background: rgba(253, 111, 0, 0.08);
+
+  border-radius: 50%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-info p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.social-icons svg {
+  width: 24px;
+  height: 24px;
+  color: #444;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #fd6f00;
+  transform: translateY(-3px);
+}
+
+/* .contact-section {
+  width: 100vw;
+  margin: 0 -15vw;
+  padding: 120px 20px 80px;
+  background: linear-gradient(180deg, #f8f8f8 0%, #ffffff 100%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: #222;
+  margin-bottom: 15px;
+  letter-spacing: -2px;
+}
+
+.contact-subtitle {
+  max-width: 650px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+
+
+
+.contact-info {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.contact-info p {
+  color: #444;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.contact-info p:nth-child(2),
+.contact-info p:nth-child(3) {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.social-icons {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons svg {
+  width: 22px;
+  height: 22px;
+
+  padding: 14px;
+
+  background: #fff4ec;
+
+  border-radius: 50%;
+
+  transition: all 0.3s ease;
+
+  cursor: pointer;
+}
+
+.social-icons svg:hover {
+  background: #fd6f00;
+
+  color: white !important;
+
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(253, 111, 0, 0.3);
+} */
