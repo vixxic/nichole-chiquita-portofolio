@@ -58,7 +58,6 @@ body {
   }
 
   .nav-content {
-    flex-direction: column;
     gap: 20px;
   }
 

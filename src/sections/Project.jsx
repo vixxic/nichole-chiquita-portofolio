@@ -89,9 +89,13 @@ function Project() {
                   >
                     <p>{project.desc}</p>
                     <a
-                      style={{ alignItems: "center", display: "flex" }}
                       href={project.link}
                       target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                      }}
                     >
                       <IoMdOpen size={20} color="#fd6f00" />
                     </a>

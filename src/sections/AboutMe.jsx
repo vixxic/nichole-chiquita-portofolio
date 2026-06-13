@@ -10,7 +10,7 @@ function AboutMe() {
   return (
     <div className="about-me-section section poppins-regular">
       <div className="about-me-img-con">
-        <img src="abote-me-profile.jpg"></img>
+        <img src="/abote-me-profile.jpg" alt="Nichole Chiquira" />
       </div>
 
       <div className="about-me-tlt-des-con">

@@ -10,7 +10,8 @@ function Contact() {
       <h1 className="contact-title poppins-medium">Lets Connect There</h1>
 
       <p className="contact-subtitle">
-        Let's create something meaningful together. Contact me anytime.
+        Terima kasih telah mengunjungi portofolio saya. Jangan ragu untuk
+        menghubungi saya untuk berdiskusi atau berkolaborasi.
       </p>
 
       <div className="contact-card">

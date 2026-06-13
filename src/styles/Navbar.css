@@ -73,18 +73,14 @@
 
 @media (max-width: 1024px) {
   .navbar-con {
-    padding: 0;
+    padding: 0 14vw;
+    background-color: white;
   }
 }
 
 @media (max-width: 768px) {
   .navbar-con {
-    padding: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar-con {
-    padding: 0;
+    padding: 0 14vw;
+    background-color: white;
   }
 }
