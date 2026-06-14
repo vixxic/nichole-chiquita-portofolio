@@ -42,12 +42,17 @@
   list-style: none;
 }
 
-.nav-links li {
+.nav-links li a {
   cursor: pointer;
   transition: 0.3s;
 }
 
-.nav-links li:hover {
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links li a:hover {
   color: #fd6f00;
 }
 

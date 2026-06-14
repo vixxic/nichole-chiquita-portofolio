@@ -1,11 +1,6 @@
 @media (max-width: 768px) {
-  .text {
-    font-size: "1.2vw";
-  }
-}
-
-@media (max-width: 480px) {
-  .text {
-    font-size: "1.2vw";
+  .orange-btn {
+    display: flex;
+    justify-content: center;
   }
 }

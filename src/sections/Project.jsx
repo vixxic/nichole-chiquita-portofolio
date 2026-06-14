@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Navigation } from "swiper/modules";
+import { useEffect } from "react";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -8,7 +9,49 @@ import "swiper/css/pagination";
 import "../styles/Project.css";
 import { IoMdOpen } from "react-icons/io";
 
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
+
 function Project() {
+  useEffect(() => {
+    gsap.from(".project-tlt-des-con h1", {
+      y: 80,
+      opacity: 0,
+      duration: 0.8,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".projects-section",
+        start: "top 75%",
+      },
+    });
+
+    gsap.from(".project-des", {
+      y: 50,
+      opacity: 0,
+      duration: 0.8,
+      delay: 0.15,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".projects-section",
+        start: "top 75%",
+      },
+    });
+
+    gsap.from(".project-slider-wrapper", {
+      y: 80,
+      opacity: 0,
+      duration: 1,
+      delay: 0.3,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".projects-section",
+        start: "top 75%",
+      },
+    });
+  }, []);
+
   const projects = [
     {
       title: "Team.",
@@ -43,7 +86,7 @@ function Project() {
   ];
 
   return (
-    <div className="projects-section section poppins-regular">
+    <div id="project" className="projects-section section poppins-regular">
       <div className="project-tlt-des-con ">
         <h1 className="poppins-medium">My Projects</h1>
 
@@ -55,12 +98,8 @@ function Project() {
 
       <div className="project-slider-wrapper">
         <Swiper
-          modules={[Navigation, Autoplay]}
+          modules={[Navigation]}
           navigation={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
           spaceBetween={30}
           breakpoints={{
             0: {

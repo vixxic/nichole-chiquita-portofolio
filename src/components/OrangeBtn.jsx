@@ -1,9 +1,13 @@
 import "../styles/OrangeBtn.css";
 
 function OrangeBtn({ text }) {
+  const isDownload = text === "Download CV";
+
   return (
     <div className="orange-btn">
-      <div
+      <a
+        href={isDownload ? "/Nichole-chiquita.png" : ""}
+        download={isDownload}
         className="poppins-regular text"
         style={{
           color: "white",
@@ -17,10 +21,11 @@ function OrangeBtn({ text }) {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          textDecoration: "none",
         }}
       >
         {text}
-      </div>
+      </a>
     </div>
   );
 }
