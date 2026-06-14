@@ -1,8 +1,10 @@
-function OrangeBtn({ text, width }) {
+import "../styles/OrangeBtn.css";
+
+function OrangeBtn({ text }) {
   return (
     <div className="orange-btn">
       <div
-        className="poppins-regular"
+        className="poppins-regular text"
         style={{
           color: "white",
           backgroundColor: "#fd6f00",
@@ -10,7 +12,7 @@ function OrangeBtn({ text, width }) {
           border: "none",
           padding: "5px 30px",
           borderRadius: "5px",
-          fontSize: "1.2vw",
+          fontSize: "clamp(14px, 1.2vw, 22px)",
           width: "max-content",
           display: "flex",
           justifyContent: "center",
