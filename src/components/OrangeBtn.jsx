@@ -14,7 +14,6 @@ function OrangeBtn({ text }) {
           backgroundColor: "#fd6f00",
           outline: "none",
           border: "none",
-          padding: "5px 30px",
           borderRadius: "5px",
           fontSize: "clamp(14px, 1.2vw, 22px)",
           width: "max-content",

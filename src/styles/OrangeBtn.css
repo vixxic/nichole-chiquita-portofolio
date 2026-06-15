@@ -1,6 +1,14 @@
+.orange-btn a {
+  padding: 5px 30px;
+}
+
 @media (max-width: 768px) {
   .orange-btn {
     display: flex;
     justify-content: center;
+  }
+
+  .orange-btn a {
+    padding: 5px 20px;
   }
 }
