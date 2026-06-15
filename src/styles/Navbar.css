@@ -102,6 +102,10 @@
     padding: 0 5vw;
   }
 
+  .dark.navbar-con {
+    padding: 0 5vw;
+  }
+
   .nav-links {
     gap: 20px;
   }
@@ -117,6 +121,10 @@
 
 @media (max-width: 768px) {
   .navbar-con {
+    padding: 0 5vw;
+  }
+
+  .dark.navbar-con {
     padding: 0 5vw;
   }
 
