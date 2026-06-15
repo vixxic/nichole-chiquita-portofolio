@@ -15,7 +15,7 @@ function Footer() {
       <p style={{ color: "white", fontWeight: "300" }}>
         © Design by{" "}
         <a
-          href="https://www.figma.com/design/UDbdx6e6ZHpImAVB5oWNvQ/Portfolio%7C-Personal-Portfolio-%7C-5---Community-?node-id=1211-3647&t=ZjepBwIQg2Vyv0wU-0https://www.figma.com/design/UDbdx6e6ZHpImAVB5oWNvQ/Portfolio%7C-Personal-Portfolio-%7C-5---Community-?node-id=1210-2374&t=ZjepBwIQg2Vyv0wU-0"
+          href="https://www.figma.com/design/UDbdx6e6ZHpImAVB5oWNvQ/Portfolio%7C-Personal-Portfolio-%7C-5---Community-?node-id=1210-2374&t=WE1xtDHLJhND6L5Q-0"
           target="_blank"
           style={{ color: "#fd6f00 " }}
         >
