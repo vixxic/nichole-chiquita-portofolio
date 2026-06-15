@@ -7,7 +7,7 @@
   transition: all 0.3s ease;
 }
 
-.dark.navbar-con {
+.dark .navbar-con {
   position: fixed;
   top: 0;
   width: 100%;
@@ -110,7 +110,7 @@
     padding: 0 5vw;
   }
 
-  .dark.navbar-con {
+  .dark .navbar-con {
     padding: 0 5vw;
   }
 
@@ -161,7 +161,7 @@
     padding: 12px 20px;
   }
 
-  .dark.navbar-con.scrolled .nav-content {
+  .dark .navbar-con.scrolled .nav-content {
     padding: 12px 20px;
   }
 }
