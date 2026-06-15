@@ -11,7 +11,7 @@
 
 .contact-title {
   font-size: clamp(2rem, 4vw, 3.5rem);
-  color: #222;
+  color: var(--text-color);
   margin-bottom: 12px;
 }
 

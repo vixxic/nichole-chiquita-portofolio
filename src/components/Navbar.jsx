@@ -2,9 +2,9 @@ import "../styles/Navbar.css";
 import { useEffect, useState } from "react";
 import OrangeBtn from "./OrangeBtn";
 import { AiOutlineMoon } from "react-icons/ai";
-import { CiSun } from "react-icons/ci";
+import { FiSun } from "react-icons/fi";
 
-function Navbar() {
+function Navbar({ darkMode, setDarkMode }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -31,7 +31,18 @@ function Navbar() {
               alignItems: "center",
             }}
           >
-            <AiOutlineMoon className="theme-icon" color="#000000" />
+            <button
+              className="theme-btn"
+              onClick={() => {
+                setDarkMode(!darkMode);
+              }}
+            >
+              {darkMode ? (
+                <FiSun className="theme-icon" />
+              ) : (
+                <AiOutlineMoon className="theme-icon" />
+              )}
+            </button>
           </span>
         </div>
 

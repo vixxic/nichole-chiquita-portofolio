@@ -34,7 +34,7 @@ function Home() {
       <div id="home" className="home-section section poppins-semibold">
         <div className="hero-tlt-des-con">
           <p className="hero-hi">Hi I am</p>
-          <h2>Nichole Chiquira</h2>
+          <h2>Nichole Chiquita</h2>
           <h1>Front-end Developer</h1>
 
           <p className="home-des poppins-regular">

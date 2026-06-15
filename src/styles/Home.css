@@ -16,6 +16,7 @@
 
 .hero-hi {
   font-size: clamp(14px, 1.2vw, 22px);
+  color: var(--text-color);
 }
 
 .hero-tlt-des-con h2 {
@@ -26,13 +27,14 @@
 .hero-tlt-des-con h1 {
   font-size: clamp(3rem, 6vw, 6rem);
   line-height: 1.1;
+  color: var(--text-color);
 }
 
 .home-des {
   margin-top: 24px;
   max-width: 650px;
   line-height: 1.8;
-  color: #444;
+  color: var(--text-color);
   margin-bottom: 15px;
 }
 

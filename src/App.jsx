@@ -1,5 +1,5 @@
 import "./App.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Lenis from "lenis";
 import gsap from "gsap";
 import Navbar from "./components/Navbar";
@@ -14,6 +14,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
@@ -34,15 +36,15 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Navbar />
+    <div className={darkMode ? "dark" : ""}>
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className="app">
         <Home />
         <AboutMe />
         <Project />
         <Contact />
       </div>
-    </>
+    </div>
   );
 }
 

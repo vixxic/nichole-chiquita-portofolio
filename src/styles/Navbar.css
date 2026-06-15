@@ -30,6 +30,14 @@
   font-size: clamp(32px, 3vw, 50px);
 }
 
+.nav-links li a {
+  color: var(--text-color);
+}
+
+.theme-icon {
+  color: var(--text-color);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -49,7 +57,6 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: black;
 }
 
 .nav-links li a:hover {
@@ -65,12 +72,29 @@
   padding: 5px 40px;
 }
 
+.dark .navbar-con.scrolled .nav-content {
+  background: rgba(30, 30, 30, 0.85);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+
+  padding: 5px 40px;
+}
+
 .navbar-con.scrolled .nav-links li {
   font-size: clamp(13px, 0.9vw, 16px);
 }
 
 .theme-icon {
   font-size: clamp(24px, 2vw, 40px);
+}
+
+.theme-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
 }
 
 @media (max-width: 1024px) {

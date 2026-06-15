@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div
       style={{
-        backgroundColor: "#545454",
+        backgroundColor: "var(--footer-color)",
         width: "100vw",
         padding: "1vw 0",
         position: "absolute",
@@ -13,8 +13,15 @@ function Footer() {
       }}
     >
       <p style={{ color: "white", fontWeight: "300" }}>
-        © Design by <span style={{ color: "#fd6f00 " }}>FawziUiUx</span> All
-        Rights Reserved
+        © Design by{" "}
+        <a
+          href="https://www.figma.com/design/UDbdx6e6ZHpImAVB5oWNvQ/Portfolio%7C-Personal-Portfolio-%7C-5---Community-?node-id=1211-3647&t=ZjepBwIQg2Vyv0wU-0https://www.figma.com/design/UDbdx6e6ZHpImAVB5oWNvQ/Portfolio%7C-Personal-Portfolio-%7C-5---Community-?node-id=1210-2374&t=ZjepBwIQg2Vyv0wU-0"
+          target="_blank"
+          style={{ color: "#fd6f00 " }}
+        >
+          FawziUiUx
+        </a>{" "}
+        All Rights Reserved
       </p>
     </div>
   );
