@@ -10,6 +10,7 @@ function Footer() {
         position: "absolute",
         bottom: "0",
         marginTop: "4vw",
+        paddingBottom: "15px",
       }}
     >
       <p style={{ color: "white", fontWeight: "300" }}>
