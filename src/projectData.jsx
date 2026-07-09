@@ -9,7 +9,7 @@ export const projects = [
     title: "Sports News",
     image: "/projects/sports-news.png",
     desc: "News and article about sports",
-    link: "https://rpl10-final-exam.netlify.app/",
+    link: "https://sports-news-website-seven.vercel.app/",
   },
   {
     title: "Team.",
