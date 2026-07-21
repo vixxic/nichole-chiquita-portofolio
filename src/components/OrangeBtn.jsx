@@ -6,7 +6,7 @@ function OrangeBtn({ text }) {
   return (
     <div className="orange-btn">
       <a
-        href={isDownload ? "/Nichole-chiquita.png" : ""}
+        href={isDownload ? "/Nichole-chiquita.pdf" : ""}
         download={isDownload}
         className="poppins-regular text"
         style={{
