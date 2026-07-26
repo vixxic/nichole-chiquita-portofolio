@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: "FineFin Company",
-    image: "/FineFin-company.png",
+    image: "/projects/FineFin-company.png",
     desc: "FineFin Employee Management Website",
     link: "https://fine-fin-company-website.vercel.app/",
   },
