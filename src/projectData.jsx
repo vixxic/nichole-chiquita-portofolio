@@ -18,6 +18,12 @@ export const projects = [
     link: "https://destinize-travel-website-landing-pa.vercel.app/",
   },
   {
+    title: "FineFin Company",
+    image: "FineFin-company.png",
+    desc: "FineFin Employee Management Website",
+    link: "https://fine-fin-company-website.vercel.app/",
+  },
+  {
     title: "Team.",
     image: "/projects/team.-company.png",
     desc: "Team. company's mock website",
