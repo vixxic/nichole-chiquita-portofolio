@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "Energize",
+    image: "/projects/energize.png",
+    desc: "Aplication website membantu efisiensi energi",
+    link: "https://energize-analisis-energimu.vercel.app/",
+  },
+  {
     title: "foodi e-commerce",
     image: "/projects/foodi.png",
     desc: "e-commerce and landing page website",
