@@ -6,6 +6,12 @@ export const projects = [
     link: "https://energize-analisis-energimu.vercel.app/",
   },
   {
+    title: "Book Collection Manager",
+    image: "/projects/book-collection-manager.png",
+    desc: "Mendokumentasikan semua yang kamu baca",
+    link: "https://book-collectio-manager.vercel.app/",
+  },
+  {
     title: "foodi e-commerce",
     image: "/projects/foodi.png",
     desc: "e-commerce and landing page website",
