@@ -18,6 +18,12 @@ export const projects = [
     link: "https://foodi-restaurant-ecommerce.netlify.app/",
   },
   {
+    title: "Movie collection management",
+    image: "/projects/movie-collection-manager.png",
+    desc: "Mendokumentasikan semua film yang di tonton",
+    link: "https://movie-collection-management.vercel.app/",
+  },
+  {
     title: "Sports News",
     image: "/projects/sports-news.png",
     desc: "News and article about sports",
